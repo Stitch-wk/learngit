@@ -8,4 +8,19 @@ print(list)
 print(y)
 input('press any key to...')
 
+#增加了冒泡排序
+list = []
+print ('请输入十个整数：')
+for i in range(10):
+    print ('输入第%d个整数：'%i)
+    a = input()
+    list.append(a)
+print (list)
+ 
+for i in range(9):
+    for j in range(9 - i):
+        if list[j] > list[j+1]:
+	        list[j], list[j + 1] = list[j + 1], list[j]
+    print (list)
+
     
