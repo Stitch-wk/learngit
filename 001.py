@@ -7,3 +7,4 @@ y=sorted(list)
 print(list)
 print(y)
 input('press any key to...')
+#以上为使用sorted函数进行选择排序
